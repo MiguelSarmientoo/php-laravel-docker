@@ -1,0 +1,96 @@
+[2024-03-22 04:50:15] production.ERROR: Too many arguments to "make:migration" command, expected arguments "name". {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): Too many arguments to \"make:migration\" command, expected arguments \"name\". at C:\\Users\\LENOVO\\Desktop\\php-laravel-docker-master\\vendor\\symfony\\console\\Input\\ArgvInput.php:190)
+[stacktrace]
+#0 C:\\Users\\LENOVO\\Desktop\\php-laravel-docker-master\\vendor\\symfony\\console\\Input\\ArgvInput.php(83): Symfony\\Component\\Console\\Input\\ArgvInput->parseArgument('artisan')
+#1 C:\\Users\\LENOVO\\Desktop\\php-laravel-docker-master\\vendor\\symfony\\console\\Input\\ArgvInput.php(68): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken('artisan', true)
+#2 C:\\Users\\LENOVO\\Desktop\\php-laravel-docker-master\\vendor\\symfony\\console\\Input\\Input.php(53): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#3 C:\\Users\\LENOVO\\Desktop\\php-laravel-docker-master\\vendor\\symfony\\console\\Command\\Command.php(238): Symfony\\Component\\Console\\Input\\Input->bind(Object(Symfony\\Component\\Console\\Input\\InputDefinition))
+#4 C:\\Users\\LENOVO\\Desktop\\php-laravel-docker-master\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(181): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#5 C:\\Users\\LENOVO\\Desktop\\php-laravel-docker-master\\vendor\\symfony\\console\\Application.php(1049): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 C:\\Users\\LENOVO\\Desktop\\php-laravel-docker-master\\vendor\\symfony\\console\\Application.php(318): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateMakeCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#7 C:\\Users\\LENOVO\\Desktop\\php-laravel-docker-master\\vendor\\symfony\\console\\Application.php(169): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 C:\\Users\\LENOVO\\Desktop\\php-laravel-docker-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(196): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 C:\\Users\\LENOVO\\Desktop\\php-laravel-docker-master\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 {main}
+"} 
+[2024-03-22 05:06:56] production.ERROR: Command "make:Datacrudcontroller" is not defined.
+
+Did you mean one of these?
+    make:cache-table
+    make:cast
+    make:channel
+    make:class
+    make:command
+    make:component
+    make:controller
+    make:enum
+    make:event
+    make:exception
+    make:factory
+    make:interface
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:notifications-table
+    make:observer
+    make:policy
+    make:provider
+    make:queue-batches-table
+    make:queue-failed-table
+    make:queue-table
+    make:request
+    make:resource
+    make:rule
+    make:scope
+    make:seeder
+    make:session-table
+    make:test
+    make:trait
+    make:view {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"make:Datacrudcontroller\" is not defined.
+
+Did you mean one of these?
+    make:cache-table
+    make:cast
+    make:channel
+    make:class
+    make:command
+    make:component
+    make:controller
+    make:enum
+    make:event
+    make:exception
+    make:factory
+    make:interface
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:notifications-table
+    make:observer
+    make:policy
+    make:provider
+    make:queue-batches-table
+    make:queue-failed-table
+    make:queue-table
+    make:request
+    make:resource
+    make:rule
+    make:scope
+    make:seeder
+    make:session-table
+    make:test
+    make:trait
+    make:view at C:\\Users\\LENOVO\\Desktop\\php-laravel-docker-master\\vendor\\symfony\\console\\Application.php:704)
+[stacktrace]
+#0 C:\\Users\\LENOVO\\Desktop\\php-laravel-docker-master\\vendor\\symfony\\console\\Application.php(260): Symfony\\Component\\Console\\Application->find('make:Datacrudco...')
+#1 C:\\Users\\LENOVO\\Desktop\\php-laravel-docker-master\\vendor\\symfony\\console\\Application.php(169): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 C:\\Users\\LENOVO\\Desktop\\php-laravel-docker-master\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(196): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\Users\\LENOVO\\Desktop\\php-laravel-docker-master\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 {main}
+"} 
