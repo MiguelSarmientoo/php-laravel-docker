@@ -72,10 +72,10 @@
             Laravel
         </div>
         <div class="links">
-    <!-- Otros enlaces -->
-    <a href="{{ route('datacrud.index') }}">Ver CRUD</a>
-</div>
-        <div class="links">
+            <!-- Enlace para ver el CRUD -->
+            <a href="{{ route('datacrud.index') }}">Ver CRUD</a>
+
+            <!-- Otros enlaces -->
             <a href="https://laravel.com/docs">Docs</a>
             <a href="https://laracasts.com">Laracasts</a>
             <a href="https://laravel-news.com">News</a>
